@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  background: var(--primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.form > * {
+  margin-top: 1rem;
+}
+
+.form > *:first-child {
+  margin: 0;
+}
+
+.button {
+  background: var(--info);
+  color: var(--secondary);
+}

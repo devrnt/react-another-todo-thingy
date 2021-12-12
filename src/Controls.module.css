@@ -1,0 +1,16 @@
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.span {
+  color: var(--secondary300);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.button {
+  background: var(--accent);
+  color: var(--primary);
+}

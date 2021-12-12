@@ -1,0 +1,24 @@
+.p {
+  text-align: center;
+  background: var(--success);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.ul,
+.p {
+  grid-area: 1/1/2/2;
+}
